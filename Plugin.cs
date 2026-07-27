@@ -7,13 +7,13 @@ using UnityEngine.InputSystem;
 
 namespace ForeverCosmetx
 {
-    [BepInPlugin("com.goldentrophy.gorillatag.forevercosmetx", "ForeverCosmetx", "1.0.0")]
+    [BepInPlugin("com.lucylikesbananas.forevercosmetx", "ForeverCosmetx", "1.0.0")]
     public class Plugin : BaseUnityPlugin
     {
         public static Plugin Instance;
         public static bool Hiding;
 
-        private readonly Harmony _harmony = new Harmony("com.goldentrophy.gorillatag.forevercosmetx");
+        private readonly Harmony _harmony = new Harmony("com.lucylikesbananas.forevercosmetx");
         private bool _showMenu;
         private Rect _window = new Rect(30, 30, 200, 100);
 
@@ -21,7 +21,7 @@ namespace ForeverCosmetx
         {
             Instance = this;
             _harmony.PatchAll();
-            Logger.LogInfo("ForeverCosmetx ready. Press X for the menu.");
+            Logger.LogInfo("ForeverCosmetx ready - Originally made by iiDk/goldentrophy, maintained by LucyLikesBananas. Press X for the menu.");
         }
 
         private void Update()
