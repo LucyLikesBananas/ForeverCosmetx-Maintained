@@ -21,7 +21,7 @@ namespace ForeverCosmetx
         {
             Instance = this;
             _harmony.PatchAll();
-            Logger.LogInfo("ForeverCosmetx ready - Originally made by iiDK/goldentrophy, maintained by LucyLikesBananas. Press X for the menu.");
+            Logger.LogInfo("ForeverCosmetx ready - Originally made by iiDk/goldentrophy, maintained by LucyLikesBananas. Press X for the menu.");
         }
 
         private void Update()
