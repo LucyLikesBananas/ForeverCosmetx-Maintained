@@ -1,0 +1,11 @@
+# Build output
+bin/
+obj/
+
+# IDE / user files
+.vs/
+*.user
+*.suo
+
+# The game's own DLLs are referenced locally and must never be committed
+Gorilla Tag_Data/
